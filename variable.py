@@ -1,14 +1,20 @@
-1 == 39 
+'''
+author: alex ziubinska
+date modified: february 26th, 2025
+description: a program states the different data types
+'''
+
+var1 = 39 
 # this is an integer
-2 == 80.25 
+var2 = 80.25 
 # this is a float
-3 == 0.23904712339846128123124 
+var3 = 0.23904712339846128123124 
 # this is a double
-4 == "h" 
+var4 = "h" 
 # this is a char
-5 == True 
+var5 = True 
 # this is a boolean
-6 == "demonstration!" 
+var6 = "'demonstration!'"
 # this is a string
 
-print("1 is a integer.\n2 is a float.\n3 is a double.\n4 is a char.\n5 is a boolean.\n6 is a string.")
+print(var1, "is an integer.", var2, "is a float.", var3, "is a double.", var4, "is a char.", var5, "is a boolean.", var6, "is a string.")
